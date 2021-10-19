@@ -1,7 +1,7 @@
 # docker-postges
 
 ```
-docker pull posttgres
+docker pull postgres
 
 mkdir data
 docker run -d --name postgres -e POSTGRES_PASSWORD=mysecretpassword   -v $PWD/data:/var/lib/postgresql/data  -p 9020:5432  postgres:latest
